@@ -6,7 +6,11 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 import static com.ebay.configs.ResourceId.SIGNINPAGE_CLOSEBUTTON_ID;
 import static com.ebay.configs.ResourceId.SIGNINPAGE_USERNAMEEDITFIELD_ID;
-
+/**
+ * This class helps to sign in into app
+ * @author Amit.Sharma4
+ *
+ */
 public class SignInPage extends BasePage {
     @AndroidFindBy(id = SIGNINPAGE_USERNAMEEDITFIELD_ID)
     private AndroidElement usernameEditField;

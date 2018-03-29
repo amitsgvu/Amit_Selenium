@@ -23,7 +23,11 @@ import cucumber.api.java.en.When;
 import io.appium.java_client.android.AndroidDriver;
 
 import static com.ebay.configs.SystemConfig.SCREENSHOT_TYPE;
-
+/**
+ * This class is implements step file
+ * @author Amit.Sharma4
+ *
+ */
 public class Steps {
     PageManager pageManager;
     AndroidDriver driver;

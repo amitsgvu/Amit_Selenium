@@ -1,5 +1,9 @@
 package com.ebay.configs;
-
+/**
+ * Keeping all data values
+ * @author Amit.Sharma4
+ *
+ */
 public class ResourceId {
     public static final String HOMEPAGE_SEARCHBOX_ID = "search_box";
 

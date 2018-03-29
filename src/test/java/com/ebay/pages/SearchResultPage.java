@@ -19,7 +19,11 @@ import static com.ebay.configs.ResourceId.SEARCHRESULTPAGE_PRICETEXTFIELD_ID;
 import static com.ebay.configs.ResourceId.SEARCHRESULTPAGE_PRODUCTITEMCELL_ID;
 import static com.ebay.configs.ResourceId.SEARCHRESULTPAGE_SORTBUTTON_ID;
 import static com.ebay.configs.SystemConfig.MAXIMUM_SCROLL;
-
+/**
+ * This class helps to perform operation on search result page
+ * @author Amit.Sharma4
+ *
+ */
 public class SearchResultPage extends BasePage {
     @AndroidFindBy(id = SEARCHRESULTPAGE_SORTBUTTON_ID)
     private AndroidElement sortButton;

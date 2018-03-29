@@ -2,7 +2,11 @@ package com.ebay.helpers;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidKeyCode;
-/*
+/**
+ * Class is used to be as Utility class
+ * @author Amit.Sharma4
+ *
+ */
 public class ActionHelper {
     private static int SCREEN_TOP_EDGE = 10;
     private static int SWIPE_DURATION = 1000;

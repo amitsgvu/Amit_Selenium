@@ -11,7 +11,11 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 import static com.ebay.configs.SystemConfig.ELEMENT_FIND_TIMEOUT;
 import static com.ebay.configs.SystemConfig.WEBDRIVERWAIT_TIMEOUT;
-
+/**
+ * This class is used for Providing driver to its child class
+ * @author Amit.Sharma4
+ *
+ */
 public class BasePage {
     protected AndroidDriver driver;
     protected WebDriverWait driverWait;

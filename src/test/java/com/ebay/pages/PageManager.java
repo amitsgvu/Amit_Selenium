@@ -3,7 +3,11 @@ package com.ebay.pages;
 import java.util.HashMap;
 
 import io.appium.java_client.android.AndroidDriver;
-
+/**
+ * It initializes all object usig POM model
+ * @author Amit.Sharma4
+ *
+ */
 public class PageManager {
     private AndroidDriver driver;
     private HomePage homePage;

@@ -7,7 +7,11 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 import static com.ebay.configs.ResourceId.SEARCHPAGE_SEARCHPLATEEDITFIELD_ID;
-
+/**
+ * This class helps to search any product
+ * @author Amit.Sharma4
+ *
+ */
 public class SearchPage extends BasePage {
     @AndroidFindBy(id = SEARCHPAGE_SEARCHPLATEEDITFIELD_ID)
     private AndroidElement searchPlateEditField;

@@ -12,7 +12,11 @@ import static com.ebay.configs.SystemConfig.CAPS_APP_KEY;
 import static com.ebay.configs.SystemConfig.CAPS_DEVICENAME_KEY;
 import static com.ebay.configs.SystemConfig.CAPS_PLATFORMNAME_KEY;
 import static com.ebay.configs.SystemConfig.DRIVER_REMOTE_ADDRESS;
-
+/**
+ * This class will helpo to set up Environment
+ * @author Amit.Sharma4
+ *
+ */
 public class AndroidDriverHelper {
     public static DesiredCapabilities createAndroidDesiredCapabilities() {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();

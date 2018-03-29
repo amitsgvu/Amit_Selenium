@@ -10,7 +10,11 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 import static com.ebay.configs.ResourceId.PRODUCTDESCRIPTIONPAGE_PRICETEXTFIELD_ID;
 import static com.ebay.configs.ResourceId.PRODUCTDESCRIPTIONPAGE_WATCHBUTTON_ID;
-
+/**
+ * This class helps to check desription of product
+ * @author Amit.Sharma4
+ *
+ */
 public class ProductDescriptionPage extends BasePage {
     @AndroidFindBy(id = PRODUCTDESCRIPTIONPAGE_WATCHBUTTON_ID)
     private AndroidElement watchButton;

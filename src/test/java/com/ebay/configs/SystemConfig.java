@@ -1,5 +1,9 @@
 package com.ebay.configs;
-
+/**
+ * Class will help to keep all configurations
+ * @author Amit.Sharma4
+ *
+ */
 public class SystemConfig {
     public static final int ELEMENT_FIND_TIMEOUT = 15;
     public static final int WEBDRIVERWAIT_TIMEOUT = 15;
